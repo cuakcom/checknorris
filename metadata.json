@@ -1,0 +1,6 @@
+{
+  "name": "Check Norris",
+  "description": "Suite de diagnóstico web, DNS, correo, auditoría SEO, utilidades y procesamiento de logs de red en tiempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

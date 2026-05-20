@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-bg: #0b1326;
+  --color-brand-surface: #171f33;
+  --color-brand-surface-low: #131b2e;
+  --color-brand-surface-lowest: #060e20;
+  --color-brand-surface-high: #222a3d;
+  --color-brand-surface-highest: #2d3449;
+  
+  --color-brand-primary: #b4c5ff;
+  --color-brand-on-primary: #002a78;
+  --color-brand-secondary: #4edea3;
+  --color-brand-outline: #8d90a0;
+  --color-brand-outline-variant: #434655;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: #dae2fd;
+  font-family: var(--font-sans);
+}
+
+.glass-panel {
+  background: rgba(30, 41, 59, 0.5);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #2d3449;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #434655;
+}
